@@ -9,10 +9,10 @@ namespace Telephone
 			{ 'd', 'e', 'f' },  //3
 			{ 'g', 'h', 'i' },  //4
 			{ 'j', 'k', 'l' },  //5
-			{ 'm', 'n', 'o' }, //6
+			{ 'm', 'n', 'o' },  //6
 			{ 'p', 'r', 's' },  //7
-			{ 't', 'u', 'v' }, //8
-			{ 'w', 'x', 'y' }  //9
+			{ 't', 'u', 'v' },  //8
+			{ 'w', 'x', 'y' }   //9
 		};
 		public char getCharkey(int telephonekey, int place){
 			if (place > 3 || telephonekey > 9) {
@@ -34,7 +34,7 @@ namespace Telephone
 		public void printWords() { 
 			printWords(0);
 		}
-		/* if current number passes the last number
+		/* if the current number passes the last number,
 		 * 	it's the last, return the word;
 		 * else 
 		 * 	for three current number
